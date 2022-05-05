@@ -111,16 +111,6 @@ export default /*#__PURE__*/ Vue.extend({
     ref="viewer"
     :class="[viewer_theme, position_style]"
   >
-    <div class="display-status" @click="toggleDisplay">
-      <button>
-        {{ label_display }}
-      </button>
-    </div>
-    <div :class="class_theme" @click="toggleTheme">
-      <button>
-        {{ label_display_theme }}
-      </button>
-    </div>
     <div v-if="is_display_maximize">
       <template v-if="Array.isArray(data)">
         <template v-for="(item, index) in data">
