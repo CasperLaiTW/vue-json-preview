@@ -38,7 +38,7 @@ export default /*#__PURE__*/ Vue.extend({
   data(): Data {
     return {
       display: DISPLAY_TYPE.MAXIMIZE,
-      displayTheme: DISPLAY_THEME_TYPE.DARK,
+      displayTheme: DISPLAY_THEME_TYPE.LIGHT,
     };
   },
   computed: {
